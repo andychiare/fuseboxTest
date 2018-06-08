@@ -15,7 +15,7 @@ context(class {
                     bakeApiIntoBundle: "app"
                 })
             ],
-			globals: {"widget": "*"}
+			globals: {"default": "*"}
         });
     }
 })
