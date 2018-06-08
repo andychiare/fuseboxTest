@@ -15,7 +15,8 @@ context(class {
                     bakeApiIntoBundle: "widget",
 					containedAPI : true
                 })
-            ]
+            ],
+			globals: {"default": "myWidget"}
         });
     }
 })

@@ -1,5 +1,5 @@
-import("./widget.js").then(target => {
-    console.log(target);
+import("./widget.js").then(() => {
+    console.log(window.myWidget);
 })
 
 
