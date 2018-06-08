@@ -1,5 +1,6 @@
 import("./widget.js").then(() => {
-    console.log(window.myWidget);
+    console.log(myWidget);
+	console.log(myWidget.a());
 })
 
 
